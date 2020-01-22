@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#main{
+	font-family: verdana;
+	width:100%;
+}
+nav{
+	width: 100%;
+	height:80px;
+	background-color: #0004;
+	line-height: 80px;
+
+}
+nav img{
+	padding-top: 15px;
+	padding-left: 50px
+}
+nav ul li:hover{
+	background-color: #8080ff;
+	transition: 0.5s all;
+	transform: scale(1.2);
+
+}
+ul li ul li{
+	display: none;
+
+}
+ul li:hover ul li{
+	display: inline-block;
+}
+nav ul{
+	float:right;
+	margin-right: 30px;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 30px;
+	color :black;
+}
+.welcome{
+	color:#ff5500;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-style: solid;
+	word-spacing: 100px;
+	letter-spacing: 10px;
+	padding-top: 50px;
+}
+
+.About{
+	background-image: url('images/about.jpg');
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:348px;
+	color: white;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.About p{
+	padding-left: 50px;
+	
+}
+
+
+.Contact{
+	background-image: url('images/contact.jpg');
+	background-position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height:348px;
+	color: white;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.Contact p{
+	padding-left: 50px;
+	
+}
